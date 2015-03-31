@@ -1,1 +1,15 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="1" x="209" y="63">
+    <next>
+      <block type="robot_delay" id="2" inline="true">
+        <value name="DELAY">
+          <block type="sensor_button" id="3">
+            <field name="OBJECT">UP</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+  <block type="movement_left" id="4" x="379" y="248"></block>
+  <block type="movement_stop" id="5" x="285" y="391"></block>
+</xml>
